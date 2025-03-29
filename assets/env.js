@@ -44,6 +44,9 @@
   // OAuth Client Id  
   window['env']['oauthAppId'] = '';
 
+  // Min Password length  
+  window['env']['minPasswordLength'] = '12';
+
   window["env"]["vNextApiUrl"] = '';
   window["env"]["vNextApiProvider"] = '';
   window["env"]["vNextApiVersion"] = '';
