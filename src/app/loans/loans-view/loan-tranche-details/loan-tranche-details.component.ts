@@ -10,6 +10,12 @@ import { DatepickerBase } from 'app/shared/form-dialog/formfield/model/datepicke
 import { FormfieldBase } from 'app/shared/form-dialog/formfield/model/formfield-base';
 import { InputBase } from 'app/shared/form-dialog/formfield/model/input-base';
 
+interface DisbursementData {
+  id?: number;
+  principal: number;
+  expectedDisbursementDate: Date | string;
+}
+
 @Component({
   selector: 'mifosx-loan-tranche-details',
   templateUrl: './loan-tranche-details.component.html',
@@ -35,7 +41,7 @@ export class LoanTrancheDetailsComponent implements OnInit {
   currentPrincipalAmount: number;
   minDate = new Date(2000, 0, 1);
   maxDate = new Date(2100, 0, 1);
-  disbursementDataSource: {}[] = [];
+  disbursementDataSource: DisbursementData[] = [];
   totalMultiDisbursed: number = null;
   disallowExpectedDisbursements = false;
   pristine = true;
