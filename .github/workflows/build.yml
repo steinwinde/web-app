@@ -28,7 +28,7 @@ jobs:
           # issue link : https://github.com/actions/setup-node/issues/26
           # lts/gallium node v19.7.0 (npm v9.5.0)
           node-version: '22.9.0'
-      - name: Npm install
+      - name: Run CI
         run: npm ci
 
       - name: Run eslint

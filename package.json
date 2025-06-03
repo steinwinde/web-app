@@ -56,16 +56,15 @@
     "d3": "^7.9.0",
     "exceljs": "^4.4.0",
     "html2canvas": "^1.4.1",
-    "install": "^0.13.0",
     "jspdf": "^3.0.1",
     "jspdf-autotable": "^5.0.2",
     "lodash": "4.17.21",
     "moment": "^2.29.4",
-    "ng": "^0.0.0",
     "ngx-mat-select-search": "^7.0.10",
     "rxjs": "7.8.1",
     "tslib": "^2.0.0",
-    "vkbeautify": "^0.99.2",
+    "vkbeautify": "^0.99.3",
+    "xlsx": "^0.18.5",
     "zone.js": "0.14.10"
   },
   "devDependencies": {
