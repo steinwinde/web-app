@@ -6,7 +6,7 @@ describe('ClientFamilyMemberDialogComponent', () => {
   let component: ClientFamilyMemberDialogComponent;
   let fixture: ComponentFixture<ClientFamilyMemberDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ClientFamilyMemberDialogComponent]
     }).compileComponents();

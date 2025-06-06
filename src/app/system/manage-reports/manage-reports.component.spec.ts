@@ -6,7 +6,7 @@ describe('ManageReportsComponent', () => {
   let component: ManageReportsComponent;
   let fixture: ComponentFixture<ManageReportsComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ManageReportsComponent]
     }).compileComponents();

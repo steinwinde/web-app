@@ -6,7 +6,7 @@ describe('EditAccountNumberPreferenceComponent', () => {
   let component: EditAccountNumberPreferenceComponent;
   let fixture: ComponentFixture<EditAccountNumberPreferenceComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [EditAccountNumberPreferenceComponent]
     }).compileComponents();

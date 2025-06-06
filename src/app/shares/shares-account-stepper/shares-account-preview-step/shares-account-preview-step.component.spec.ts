@@ -6,7 +6,7 @@ describe('SharesAccountPreviewStepComponent', () => {
   let component: SharesAccountPreviewStepComponent;
   let fixture: ComponentFixture<SharesAccountPreviewStepComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [SharesAccountPreviewStepComponent]
     }).compileComponents();

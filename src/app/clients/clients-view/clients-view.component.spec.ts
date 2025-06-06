@@ -6,7 +6,7 @@ describe('ClientsViewComponent', () => {
   let component: ClientsViewComponent;
   let fixture: ComponentFixture<ClientsViewComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ClientsViewComponent]
     }).compileComponents();

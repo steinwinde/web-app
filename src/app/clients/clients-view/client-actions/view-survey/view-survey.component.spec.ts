@@ -6,7 +6,7 @@ describe('ViewSurveyComponent', () => {
   let component: ViewSurveyComponent;
   let fixture: ComponentFixture<ViewSurveyComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewSurveyComponent]
     }).compileComponents();

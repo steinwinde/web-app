@@ -6,7 +6,7 @@ describe('ViewOfficeComponent', () => {
   let component: ViewOfficeComponent;
   let fixture: ComponentFixture<ViewOfficeComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewOfficeComponent]
     }).compileComponents();

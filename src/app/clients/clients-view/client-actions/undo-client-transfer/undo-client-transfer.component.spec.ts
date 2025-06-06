@@ -6,7 +6,7 @@ describe('UndoClientTransferComponent', () => {
   let component: UndoClientTransferComponent;
   let fixture: ComponentFixture<UndoClientTransferComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [UndoClientTransferComponent]
     }).compileComponents();

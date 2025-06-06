@@ -6,7 +6,7 @@ describe('AddressTabComponent', () => {
   let component: AddressTabComponent;
   let fixture: ComponentFixture<AddressTabComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [AddressTabComponent]
     }).compileComponents();

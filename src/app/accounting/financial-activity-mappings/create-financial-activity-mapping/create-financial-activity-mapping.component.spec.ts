@@ -6,7 +6,7 @@ describe('CreateFinancialActivityMappingComponent', () => {
   let component: CreateFinancialActivityMappingComponent;
   let fixture: ComponentFixture<CreateFinancialActivityMappingComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [CreateFinancialActivityMappingComponent]
     }).compileComponents();

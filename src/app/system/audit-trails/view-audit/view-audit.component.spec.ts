@@ -6,7 +6,7 @@ describe('ViewAuditComponent', () => {
   let component: ViewAuditComponent;
   let fixture: ComponentFixture<ViewAuditComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewAuditComponent]
     }).compileComponents();

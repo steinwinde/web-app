@@ -6,7 +6,7 @@ describe('BulkImportComponent', () => {
   let component: BulkImportComponent;
   let fixture: ComponentFixture<BulkImportComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [BulkImportComponent]
     }).compileComponents();

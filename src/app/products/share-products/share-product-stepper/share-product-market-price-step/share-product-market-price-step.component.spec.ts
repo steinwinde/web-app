@@ -6,7 +6,7 @@ describe('ShareProductMarketPriceStepComponent', () => {
   let component: ShareProductMarketPriceStepComponent;
   let fixture: ComponentFixture<ShareProductMarketPriceStepComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ShareProductMarketPriceStepComponent]
     }).compileComponents();

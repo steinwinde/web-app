@@ -6,7 +6,7 @@ describe('EditLoanProductComponent', () => {
   let component: EditLoanProductComponent;
   let fixture: ComponentFixture<EditLoanProductComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [EditLoanProductComponent]
     }).compileComponents();

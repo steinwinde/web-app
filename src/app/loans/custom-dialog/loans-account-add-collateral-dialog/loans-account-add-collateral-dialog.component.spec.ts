@@ -6,7 +6,7 @@ describe('LoansAccountAddCollateralDialogComponent', () => {
   let component: LoansAccountAddCollateralDialogComponent;
   let fixture: ComponentFixture<LoansAccountAddCollateralDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [LoansAccountAddCollateralDialogComponent]
     }).compileComponents();

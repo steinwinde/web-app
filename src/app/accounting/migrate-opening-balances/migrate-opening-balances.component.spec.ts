@@ -6,7 +6,7 @@ describe('MigrateOpeningBalancesComponent', () => {
   let component: MigrateOpeningBalancesComponent;
   let fixture: ComponentFixture<MigrateOpeningBalancesComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [MigrateOpeningBalancesComponent]
     }).compileComponents();

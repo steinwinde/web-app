@@ -6,7 +6,7 @@ describe('CompletionDialogComponent', () => {
   let component: CompletionDialogComponent;
   let fixture: ComponentFixture<CompletionDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [CompletionDialogComponent]
     }).compileComponents();

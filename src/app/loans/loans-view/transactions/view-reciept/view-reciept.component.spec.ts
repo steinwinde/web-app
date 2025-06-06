@@ -6,7 +6,7 @@ describe('ViewRecieptComponent', () => {
   let component: ViewRecieptComponent;
   let fixture: ComponentFixture<ViewRecieptComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewRecieptComponent]
     }).compileComponents();

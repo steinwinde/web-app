@@ -6,7 +6,7 @@ describe('ClosingEntriesComponent', () => {
   let component: ClosingEntriesComponent;
   let fixture: ComponentFixture<ClosingEntriesComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ClosingEntriesComponent]
     }).compileComponents();

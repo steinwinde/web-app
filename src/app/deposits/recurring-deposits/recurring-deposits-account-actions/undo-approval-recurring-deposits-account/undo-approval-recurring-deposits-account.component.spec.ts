@@ -6,7 +6,7 @@ describe('UndoApprovalRecurringDepositsAccountComponent', () => {
   let component: UndoApprovalRecurringDepositsAccountComponent;
   let fixture: ComponentFixture<UndoApprovalRecurringDepositsAccountComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [UndoApprovalRecurringDepositsAccountComponent]
     }).compileComponents();

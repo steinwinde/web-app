@@ -6,7 +6,7 @@ describe('ViewGlAccountComponent', () => {
   let component: ViewGlAccountComponent;
   let fixture: ComponentFixture<ViewGlAccountComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewGlAccountComponent]
     }).compileComponents();

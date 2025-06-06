@@ -6,7 +6,7 @@ describe('CalculateInterestDialogComponent', () => {
   let component: CalculateInterestDialogComponent;
   let fixture: ComponentFixture<CalculateInterestDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [CalculateInterestDialogComponent]
     }).compileComponents();

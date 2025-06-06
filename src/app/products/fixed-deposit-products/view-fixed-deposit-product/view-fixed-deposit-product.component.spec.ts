@@ -6,7 +6,7 @@ describe('ViewFixedDepositProductComponent', () => {
   let component: ViewFixedDepositProductComponent;
   let fixture: ComponentFixture<ViewFixedDepositProductComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewFixedDepositProductComponent]
     }).compileComponents();

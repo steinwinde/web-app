@@ -6,7 +6,7 @@ describe('FloatingRatePeriodDialogComponent', () => {
   let component: FloatingRatePeriodDialogComponent;
   let fixture: ComponentFixture<FloatingRatePeriodDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [FloatingRatePeriodDialogComponent]
     }).compileComponents();

@@ -6,7 +6,7 @@ describe('StandingInstructionsTabComponent', () => {
   let component: StandingInstructionsTabComponent;
   let fixture: ComponentFixture<StandingInstructionsTabComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [StandingInstructionsTabComponent]
     }).compileComponents();

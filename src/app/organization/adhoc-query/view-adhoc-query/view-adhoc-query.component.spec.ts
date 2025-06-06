@@ -6,7 +6,7 @@ describe('ViewAdhocQueryComponent', () => {
   let component: ViewAdhocQueryComponent;
   let fixture: ComponentFixture<ViewAdhocQueryComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewAdhocQueryComponent]
     }).compileComponents();

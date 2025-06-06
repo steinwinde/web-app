@@ -6,7 +6,7 @@ describe('InterestRateChartTabComponent', () => {
   let component: InterestRateChartTabComponent;
   let fixture: ComponentFixture<InterestRateChartTabComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [InterestRateChartTabComponent]
     }).compileComponents();

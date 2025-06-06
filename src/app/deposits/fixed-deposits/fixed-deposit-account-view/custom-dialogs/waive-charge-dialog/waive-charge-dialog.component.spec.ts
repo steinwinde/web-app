@@ -6,7 +6,7 @@ describe('WaiveChargeDialogComponent', () => {
   let component: WaiveChargeDialogComponent;
   let fixture: ComponentFixture<WaiveChargeDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [WaiveChargeDialogComponent]
     }).compileComponents();

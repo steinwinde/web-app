@@ -6,7 +6,7 @@ describe('ViewGuarantorsComponent', () => {
   let component: ViewGuarantorsComponent;
   let fixture: ComponentFixture<ViewGuarantorsComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewGuarantorsComponent]
     }).compileComponents();

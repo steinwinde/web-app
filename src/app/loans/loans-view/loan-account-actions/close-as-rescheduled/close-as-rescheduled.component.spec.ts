@@ -6,7 +6,7 @@ describe('CloseAsRescheduledComponent', () => {
   let component: CloseAsRescheduledComponent;
   let fixture: ComponentFixture<CloseAsRescheduledComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [CloseAsRescheduledComponent]
     }).compileComponents();

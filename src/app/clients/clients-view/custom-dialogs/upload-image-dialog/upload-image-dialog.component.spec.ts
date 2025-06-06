@@ -6,7 +6,7 @@ describe('UploadImageDialogComponent', () => {
   let component: UploadImageDialogComponent;
   let fixture: ComponentFixture<UploadImageDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [UploadImageDialogComponent]
     }).compileComponents();

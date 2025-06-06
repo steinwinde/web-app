@@ -6,7 +6,7 @@ describe('RecurringDepositProductSettingsStepComponent', () => {
   let component: RecurringDepositProductSettingsStepComponent;
   let fixture: ComponentFixture<RecurringDepositProductSettingsStepComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [RecurringDepositProductSettingsStepComponent]
     }).compileComponents();

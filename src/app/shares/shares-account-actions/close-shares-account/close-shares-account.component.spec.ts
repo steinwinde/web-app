@@ -6,7 +6,7 @@ describe('CloseSharesAccountComponent', () => {
   let component: CloseSharesAccountComponent;
   let fixture: ComponentFixture<CloseSharesAccountComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [CloseSharesAccountComponent]
     }).compileComponents();

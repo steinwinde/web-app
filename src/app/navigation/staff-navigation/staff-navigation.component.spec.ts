@@ -6,7 +6,7 @@ describe('StaffNavigationComponent', () => {
   let component: StaffNavigationComponent;
   let fixture: ComponentFixture<StaffNavigationComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [StaffNavigationComponent]
     }).compileComponents();

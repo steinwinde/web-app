@@ -6,7 +6,7 @@ describe('EditFixedDepositAccountComponent', () => {
   let component: EditFixedDepositAccountComponent;
   let fixture: ComponentFixture<EditFixedDepositAccountComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [EditFixedDepositAccountComponent]
     }).compileComponents();

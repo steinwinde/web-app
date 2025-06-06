@@ -6,7 +6,7 @@ describe('RejectSharesComponent', () => {
   let component: RejectSharesComponent;
   let fixture: ComponentFixture<RejectSharesComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [RejectSharesComponent]
     }).compileComponents();

@@ -6,7 +6,7 @@ describe('FormfieldComponent', () => {
   let component: FormfieldComponent;
   let fixture: ComponentFixture<FormfieldComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [FormfieldComponent]
     }).compileComponents();

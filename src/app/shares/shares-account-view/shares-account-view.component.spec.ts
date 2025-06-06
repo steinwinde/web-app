@@ -6,7 +6,7 @@ describe('SharesAccountViewComponent', () => {
   let component: SharesAccountViewComponent;
   let fixture: ComponentFixture<SharesAccountViewComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [SharesAccountViewComponent]
     }).compileComponents();

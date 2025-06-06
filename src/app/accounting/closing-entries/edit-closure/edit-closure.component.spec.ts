@@ -6,7 +6,7 @@ describe('EditClosureComponent', () => {
   let component: EditClosureComponent;
   let fixture: ComponentFixture<EditClosureComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [EditClosureComponent]
     }).compileComponents();

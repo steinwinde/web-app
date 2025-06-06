@@ -6,7 +6,7 @@ describe('UndoTransactionDialogComponent', () => {
   let component: UndoTransactionDialogComponent;
   let fixture: ComponentFixture<UndoTransactionDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [UndoTransactionDialogComponent]
     }).compileComponents();

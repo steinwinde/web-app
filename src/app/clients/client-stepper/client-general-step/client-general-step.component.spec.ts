@@ -6,7 +6,7 @@ describe('ClientGeneralStepComponent', () => {
   let component: ClientGeneralStepComponent;
   let fixture: ComponentFixture<ClientGeneralStepComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ClientGeneralStepComponent]
     }).compileComponents();

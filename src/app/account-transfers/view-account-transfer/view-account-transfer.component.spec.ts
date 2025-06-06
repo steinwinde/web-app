@@ -6,7 +6,7 @@ describe('ViewAccountTransferComponent', () => {
   let component: ViewAccountTransferComponent;
   let fixture: ComponentFixture<ViewAccountTransferComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewAccountTransferComponent]
     }).compileComponents();

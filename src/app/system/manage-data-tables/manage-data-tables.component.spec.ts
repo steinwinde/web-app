@@ -6,7 +6,7 @@ describe('ManageDataTablesComponent', () => {
   let component: ManageDataTablesComponent;
   let fixture: ComponentFixture<ManageDataTablesComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ManageDataTablesComponent]
     }).compileComponents();

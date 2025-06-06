@@ -6,7 +6,7 @@ describe('ViewRuleComponent', () => {
   let component: ViewRuleComponent;
   let fixture: ComponentFixture<ViewRuleComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewRuleComponent]
     }).compileComponents();

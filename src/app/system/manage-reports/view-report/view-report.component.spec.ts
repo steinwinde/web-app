@@ -6,7 +6,7 @@ describe('ViewReportComponent', () => {
   let component: ViewReportComponent;
   let fixture: ComponentFixture<ViewReportComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewReportComponent]
     }).compileComponents();

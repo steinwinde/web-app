@@ -6,7 +6,7 @@ describe('UndoClientRejectionComponent', () => {
   let component: UndoClientRejectionComponent;
   let fixture: ComponentFixture<UndoClientRejectionComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [UndoClientRejectionComponent]
     }).compileComponents();

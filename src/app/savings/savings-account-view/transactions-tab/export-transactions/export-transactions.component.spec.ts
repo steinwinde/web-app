@@ -6,7 +6,7 @@ describe('ExportTransactionsComponent', () => {
   let component: ExportTransactionsComponent;
   let fixture: ComponentFixture<ExportTransactionsComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ExportTransactionsComponent]
     }).compileComponents();

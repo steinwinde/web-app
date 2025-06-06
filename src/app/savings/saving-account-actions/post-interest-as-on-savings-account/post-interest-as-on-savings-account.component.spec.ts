@@ -6,7 +6,7 @@ describe('PostInterestAsOnSavingsAccountComponent', () => {
   let component: PostInterestAsOnSavingsAccountComponent;
   let fixture: ComponentFixture<PostInterestAsOnSavingsAccountComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [PostInterestAsOnSavingsAccountComponent]
     }).compileComponents();

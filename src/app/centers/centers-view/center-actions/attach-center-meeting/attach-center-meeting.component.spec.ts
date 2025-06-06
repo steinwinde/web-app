@@ -6,7 +6,7 @@ describe('AttachCenterMeetingComponent', () => {
   let component: AttachCenterMeetingComponent;
   let fixture: ComponentFixture<AttachCenterMeetingComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [AttachCenterMeetingComponent]
     }).compileComponents();

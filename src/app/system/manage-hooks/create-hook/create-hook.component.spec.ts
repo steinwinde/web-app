@@ -6,7 +6,7 @@ describe('CreateHookComponent', () => {
   let component: CreateHookComponent;
   let fixture: ComponentFixture<CreateHookComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [CreateHookComponent]
     }).compileComponents();

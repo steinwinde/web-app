@@ -6,7 +6,7 @@ describe('CreateSurveyComponent', () => {
   let component: CreateSurveyComponent;
   let fixture: ComponentFixture<CreateSurveyComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [CreateSurveyComponent]
     }).compileComponents();

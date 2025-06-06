@@ -6,7 +6,7 @@ describe('EditNotificationComponent', () => {
   let component: EditNotificationComponent;
   let fixture: ComponentFixture<EditNotificationComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [EditNotificationComponent]
     }).compileComponents();

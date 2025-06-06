@@ -6,7 +6,7 @@ describe('ViewTemplateComponent', () => {
   let component: ViewTemplateComponent;
   let fixture: ComponentFixture<ViewTemplateComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewTemplateComponent]
     }).compileComponents();

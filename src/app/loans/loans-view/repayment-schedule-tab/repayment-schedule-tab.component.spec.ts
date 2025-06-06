@@ -6,7 +6,7 @@ describe('RepaymentScheduleTabComponent', () => {
   let component: RepaymentScheduleTabComponent;
   let fixture: ComponentFixture<RepaymentScheduleTabComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [RepaymentScheduleTabComponent]
     }).compileComponents();

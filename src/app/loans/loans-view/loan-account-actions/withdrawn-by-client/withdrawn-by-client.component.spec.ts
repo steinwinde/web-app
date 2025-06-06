@@ -6,7 +6,7 @@ describe('WithdrawnByClientComponent', () => {
   let component: WithdrawnByClientComponent;
   let fixture: ComponentFixture<WithdrawnByClientComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [WithdrawnByClientComponent]
     }).compileComponents();

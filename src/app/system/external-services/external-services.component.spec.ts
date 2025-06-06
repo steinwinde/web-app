@@ -6,7 +6,7 @@ describe('ExternalServicesComponent', () => {
   let component: ExternalServicesComponent;
   let fixture: ComponentFixture<ExternalServicesComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ExternalServicesComponent]
     }).compileComponents();

@@ -6,7 +6,7 @@ describe('AttachGroupMeetingComponent', () => {
   let component: AttachGroupMeetingComponent;
   let fixture: ComponentFixture<AttachGroupMeetingComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [AttachGroupMeetingComponent]
     }).compileComponents();

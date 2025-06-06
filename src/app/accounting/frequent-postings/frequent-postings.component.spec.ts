@@ -6,7 +6,7 @@ describe('FrequentPostingsComponent', () => {
   let component: FrequentPostingsComponent;
   let fixture: ComponentFixture<FrequentPostingsComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [FrequentPostingsComponent]
     }).compileComponents();

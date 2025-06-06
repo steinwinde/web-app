@@ -6,7 +6,7 @@ describe('AmazonS3Component', () => {
   let component: AmazonS3Component;
   let fixture: ComponentFixture<AmazonS3Component>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [AmazonS3Component]
     }).compileComponents();

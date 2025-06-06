@@ -6,7 +6,7 @@ describe('PopoverComponent', () => {
   let component: PopoverComponent;
   let fixture: ComponentFixture<PopoverComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [PopoverComponent]
     }).compileComponents();

@@ -6,7 +6,7 @@ describe('CreateJournalEntryComponent', () => {
   let component: CreateJournalEntryComponent;
   let fixture: ComponentFixture<CreateJournalEntryComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [CreateJournalEntryComponent]
     }).compileComponents();

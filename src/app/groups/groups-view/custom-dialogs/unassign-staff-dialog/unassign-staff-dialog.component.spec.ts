@@ -6,7 +6,7 @@ describe('UnassignStaffDialogComponent', () => {
   let component: UnassignStaffDialogComponent;
   let fixture: ComponentFixture<UnassignStaffDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [UnassignStaffDialogComponent]
     }).compileComponents();

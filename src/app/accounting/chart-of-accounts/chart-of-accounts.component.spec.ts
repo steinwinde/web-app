@@ -6,7 +6,7 @@ describe('ChartOfAccountsComponent', () => {
   let component: ChartOfAccountsComponent;
   let fixture: ComponentFixture<ChartOfAccountsComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ChartOfAccountsComponent]
     }).compileComponents();

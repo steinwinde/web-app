@@ -6,7 +6,7 @@ describe('AssignLoanOfficerComponent', () => {
   let component: AssignLoanOfficerComponent;
   let fixture: ComponentFixture<AssignLoanOfficerComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [AssignLoanOfficerComponent]
     }).compileComponents();

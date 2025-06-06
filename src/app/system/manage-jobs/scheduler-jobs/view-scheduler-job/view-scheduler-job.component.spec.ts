@@ -6,7 +6,7 @@ describe('ViewSchedulerJobComponent', () => {
   let component: ViewSchedulerJobComponent;
   let fixture: ComponentFixture<ViewSchedulerJobComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewSchedulerJobComponent]
     }).compileComponents();

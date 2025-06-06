@@ -6,7 +6,7 @@ describe('CloseGroupComponent', () => {
   let component: CloseGroupComponent;
   let fixture: ComponentFixture<CloseGroupComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [CloseGroupComponent]
     }).compileComponents();

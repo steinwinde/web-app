@@ -6,7 +6,7 @@ describe('SavingsAccountTableComponent', () => {
   let component: SavingsAccountTableComponent;
   let fixture: ComponentFixture<SavingsAccountTableComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [SavingsAccountTableComponent]
     }).compileComponents();

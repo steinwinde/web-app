@@ -6,7 +6,7 @@ describe('ViewFinancialActivityMappingComponent', () => {
   let component: ViewFinancialActivityMappingComponent;
   let fixture: ComponentFixture<ViewFinancialActivityMappingComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewFinancialActivityMappingComponent]
     }).compileComponents();

@@ -6,7 +6,7 @@ describe('CentersViewComponent', () => {
   let component: CentersViewComponent;
   let fixture: ComponentFixture<CentersViewComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [CentersViewComponent]
     }).compileComponents();

@@ -6,7 +6,7 @@ describe('NotificationsPageComponent', () => {
   let component: NotificationsPageComponent;
   let fixture: ComponentFixture<NotificationsPageComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [NotificationsPageComponent]
     }).compileComponents();

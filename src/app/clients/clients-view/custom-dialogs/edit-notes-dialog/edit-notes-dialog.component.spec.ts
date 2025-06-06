@@ -6,7 +6,7 @@ describe('EditNotesDialogComponent', () => {
   let component: EditNotesDialogComponent;
   let fixture: ComponentFixture<EditNotesDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [EditNotesDialogComponent]
     }).compileComponents();

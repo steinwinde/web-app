@@ -6,7 +6,7 @@ describe('AmountDisbursedPieComponent', () => {
   let component: AmountDisbursedPieComponent;
   let fixture: ComponentFixture<AmountDisbursedPieComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [AmountDisbursedPieComponent]
     }).compileComponents();

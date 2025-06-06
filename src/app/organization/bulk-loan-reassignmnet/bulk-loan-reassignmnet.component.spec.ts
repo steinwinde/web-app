@@ -6,7 +6,7 @@ describe('BulkLoanReassignmnetComponent', () => {
   let component: BulkLoanReassignmnetComponent;
   let fixture: ComponentFixture<BulkLoanReassignmnetComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [BulkLoanReassignmnetComponent]
     }).compileComponents();

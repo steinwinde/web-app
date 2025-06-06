@@ -6,7 +6,7 @@ describe('ClientAddressStepComponent', () => {
   let component: ClientAddressStepComponent;
   let fixture: ComponentFixture<ClientAddressStepComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ClientAddressStepComponent]
     }).compileComponents();

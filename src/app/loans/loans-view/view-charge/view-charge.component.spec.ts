@@ -6,7 +6,7 @@ describe('ViewChargeComponent', () => {
   let component: ViewChargeComponent;
   let fixture: ComponentFixture<ViewChargeComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewChargeComponent]
     }).compileComponents();

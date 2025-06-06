@@ -6,7 +6,7 @@ describe('AcceptClientTransferComponent', () => {
   let component: AcceptClientTransferComponent;
   let fixture: ComponentFixture<AcceptClientTransferComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [AcceptClientTransferComponent]
     }).compileComponents();

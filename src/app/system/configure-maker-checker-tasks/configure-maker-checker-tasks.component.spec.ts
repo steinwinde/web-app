@@ -6,7 +6,7 @@ describe('ConfigureMakerCheckerTasksComponent', () => {
   let component: ConfigureMakerCheckerTasksComponent;
   let fixture: ComponentFixture<ConfigureMakerCheckerTasksComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ConfigureMakerCheckerTasksComponent]
     }).compileComponents();

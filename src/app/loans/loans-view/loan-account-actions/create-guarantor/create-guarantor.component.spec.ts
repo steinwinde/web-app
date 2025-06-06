@@ -6,7 +6,7 @@ describe('CreateGuarantorComponent', () => {
   let component: CreateGuarantorComponent;
   let fixture: ComponentFixture<CreateGuarantorComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [CreateGuarantorComponent]
     }).compileComponents();

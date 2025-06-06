@@ -6,7 +6,7 @@ describe('SmsComponent', () => {
   let component: SMSComponent;
   let fixture: ComponentFixture<SMSComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [SMSComponent]
     }).compileComponents();

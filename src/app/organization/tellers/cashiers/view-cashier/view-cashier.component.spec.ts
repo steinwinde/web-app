@@ -6,7 +6,7 @@ describe('ViewCashierComponent', () => {
   let component: ViewCashierComponent;
   let fixture: ComponentFixture<ViewCashierComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewCashierComponent]
     }).compileComponents();

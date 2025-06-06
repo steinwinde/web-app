@@ -6,7 +6,7 @@ describe('EditFamilyMemberComponent', () => {
   let component: EditFamilyMemberComponent;
   let fixture: ComponentFixture<EditFamilyMemberComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [EditFamilyMemberComponent]
     }).compileComponents();

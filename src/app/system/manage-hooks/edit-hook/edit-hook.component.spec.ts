@@ -6,7 +6,7 @@ describe('EditHookComponent', () => {
   let component: EditHookComponent;
   let fixture: ComponentFixture<EditHookComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [EditHookComponent]
     }).compileComponents();

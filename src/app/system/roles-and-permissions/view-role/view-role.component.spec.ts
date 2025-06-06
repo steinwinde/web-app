@@ -6,7 +6,7 @@ describe('ViewRoleComponent', () => {
   let component: ViewRoleComponent;
   let fixture: ComponentFixture<ViewRoleComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewRoleComponent]
     }).compileComponents();

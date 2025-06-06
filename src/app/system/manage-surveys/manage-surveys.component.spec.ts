@@ -6,7 +6,7 @@ describe('SurveysComponent', () => {
   let component: ManageSurveysComponent;
   let fixture: ComponentFixture<ManageSurveysComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ManageSurveysComponent]
     }).compileComponents();

@@ -6,7 +6,7 @@ describe('SystemComponent', () => {
   let component: SystemComponent;
   let fixture: ComponentFixture<SystemComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [SystemComponent]
     }).compileComponents();

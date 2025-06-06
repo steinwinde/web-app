@@ -6,7 +6,7 @@ describe('ViewClosureComponent', () => {
   let component: ViewClosureComponent;
   let fixture: ComponentFixture<ViewClosureComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewClosureComponent]
     }).compileComponents();

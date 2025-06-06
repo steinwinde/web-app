@@ -6,7 +6,7 @@ describe('WaiveInterestComponent', () => {
   let component: WaiveInterestComponent;
   let fixture: ComponentFixture<WaiveInterestComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [WaiveInterestComponent]
     }).compileComponents();

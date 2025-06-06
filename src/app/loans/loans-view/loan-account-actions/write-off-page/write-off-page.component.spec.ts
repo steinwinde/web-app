@@ -6,7 +6,7 @@ describe('WriteOffPageComponent', () => {
   let component: WriteOffPageComponent;
   let fixture: ComponentFixture<WriteOffPageComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [WriteOffPageComponent]
     }).compileComponents();

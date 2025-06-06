@@ -6,7 +6,7 @@ describe('AddEventDialogComponent', () => {
   let component: AddEventDialogComponent;
   let fixture: ComponentFixture<AddEventDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [AddEventDialogComponent]
     }).compileComponents();

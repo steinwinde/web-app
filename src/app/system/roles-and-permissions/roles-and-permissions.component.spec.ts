@@ -6,7 +6,7 @@ describe('RolesAndPermissionsComponent', () => {
   let component: RolesAndPermissionsComponent;
   let fixture: ComponentFixture<RolesAndPermissionsComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [RolesAndPermissionsComponent]
     }).compileComponents();

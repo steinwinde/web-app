@@ -6,7 +6,7 @@ describe('GroupTransferClientsComponent', () => {
   let component: GroupTransferClientsComponent;
   let fixture: ComponentFixture<GroupTransferClientsComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [GroupTransferClientsComponent]
     }).compileComponents();

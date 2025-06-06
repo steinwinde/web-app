@@ -6,7 +6,7 @@ describe('GeneralTabComponent', () => {
   let component: GeneralTabComponent;
   let fixture: ComponentFixture<GeneralTabComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [GeneralTabComponent]
     }).compileComponents();

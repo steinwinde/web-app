@@ -6,7 +6,7 @@ describe('GroupNavigationComponent', () => {
   let component: GroupNavigationComponent;
   let fixture: ComponentFixture<GroupNavigationComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [GroupNavigationComponent]
     }).compileComponents();

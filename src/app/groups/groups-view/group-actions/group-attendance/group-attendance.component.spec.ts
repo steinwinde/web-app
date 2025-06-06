@@ -6,7 +6,7 @@ describe('GroupAttendanceComponent', () => {
   let component: GroupAttendanceComponent;
   let fixture: ComponentFixture<GroupAttendanceComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [GroupAttendanceComponent]
     }).compileComponents();

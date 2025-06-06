@@ -6,7 +6,7 @@ describe('NextStepDialogComponent', () => {
   let component: NextStepDialogComponent;
   let fixture: ComponentFixture<NextStepDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [NextStepDialogComponent]
     }).compileComponents();

@@ -6,7 +6,7 @@ describe('ViewTaxGroupComponent', () => {
   let component: ViewTaxGroupComponent;
   let fixture: ComponentFixture<ViewTaxGroupComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewTaxGroupComponent]
     }).compileComponents();

@@ -6,7 +6,7 @@ describe('FixedDepositAccountChargesStepComponent', () => {
   let component: FixedDepositAccountChargesStepComponent;
   let fixture: ComponentFixture<FixedDepositAccountChargesStepComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [FixedDepositAccountChargesStepComponent]
     }).compileComponents();

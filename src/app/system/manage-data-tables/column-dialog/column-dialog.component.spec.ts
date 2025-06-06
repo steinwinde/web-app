@@ -6,7 +6,7 @@ describe('ColumnDialogComponent', () => {
   let component: ColumnDialogComponent;
   let fixture: ComponentFixture<ColumnDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ColumnDialogComponent]
     }).compileComponents();

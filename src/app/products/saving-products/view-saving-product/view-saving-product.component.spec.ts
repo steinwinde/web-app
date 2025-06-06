@@ -6,7 +6,7 @@ describe('ViewSavingProductComponent', () => {
   let component: ViewSavingProductComponent;
   let fixture: ComponentFixture<ViewSavingProductComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewSavingProductComponent]
     }).compileComponents();

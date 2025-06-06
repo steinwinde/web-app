@@ -6,7 +6,7 @@ describe('SearchToolComponent', () => {
   let component: SearchToolComponent;
   let fixture: ComponentFixture<SearchToolComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [SearchToolComponent]
     }).compileComponents();
