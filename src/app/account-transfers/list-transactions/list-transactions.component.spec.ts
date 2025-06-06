@@ -6,7 +6,7 @@ describe('ListTransactionsComponent', () => {
   let component: ListTransactionsComponent;
   let fixture: ComponentFixture<ListTransactionsComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ListTransactionsComponent]
     }).compileComponents();

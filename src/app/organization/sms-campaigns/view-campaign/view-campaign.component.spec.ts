@@ -6,7 +6,7 @@ describe('ViewCampaignComponent', () => {
   let component: ViewCampaignComponent;
   let fixture: ComponentFixture<ViewCampaignComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewCampaignComponent]
     }).compileComponents();

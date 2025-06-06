@@ -6,7 +6,7 @@ describe('ManageHooksComponent', () => {
   let component: ManageHooksComponent;
   let fixture: ComponentFixture<ManageHooksComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ManageHooksComponent]
     }).compileComponents();

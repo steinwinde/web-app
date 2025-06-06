@@ -6,7 +6,7 @@ describe('ChangePasswordDialogComponent', () => {
   let component: ChangePasswordDialogComponent;
   let fixture: ComponentFixture<ChangePasswordDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ChangePasswordDialogComponent]
     }).compileComponents();

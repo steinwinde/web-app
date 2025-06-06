@@ -6,7 +6,7 @@ describe('AuditTrailsComponent', () => {
   let component: AuditTrailsComponent;
   let fixture: ComponentFixture<AuditTrailsComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [AuditTrailsComponent]
     }).compileComponents();

@@ -6,7 +6,7 @@ describe('CancelDialogComponent', () => {
   let component: CancelDialogComponent;
   let fixture: ComponentFixture<CancelDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [CancelDialogComponent]
     }).compileComponents();

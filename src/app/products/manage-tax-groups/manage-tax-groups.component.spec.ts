@@ -6,7 +6,7 @@ describe('ManageTaxGroupsComponent', () => {
   let component: ManageTaxGroupsComponent;
   let fixture: ComponentFixture<ManageTaxGroupsComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ManageTaxGroupsComponent]
     }).compileComponents();

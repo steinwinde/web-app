@@ -6,7 +6,7 @@ describe('DeleteSignatureDialogComponent', () => {
   let component: DeleteSignatureDialogComponent;
   let fixture: ComponentFixture<DeleteSignatureDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [DeleteSignatureDialogComponent]
     }).compileComponents();

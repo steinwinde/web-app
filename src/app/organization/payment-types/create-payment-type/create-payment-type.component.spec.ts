@@ -6,7 +6,7 @@ describe('CreatePaymentTypeComponent', () => {
   let component: CreatePaymentTypeComponent;
   let fixture: ComponentFixture<CreatePaymentTypeComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [CreatePaymentTypeComponent]
     }).compileComponents();

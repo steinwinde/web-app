@@ -6,7 +6,7 @@ describe('RecurringDepositConfirmationDialogComponent', () => {
   let component: RecurringDepositConfirmationDialogComponent;
   let fixture: ComponentFixture<RecurringDepositConfirmationDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [RecurringDepositConfirmationDialogComponent]
     }).compileComponents();

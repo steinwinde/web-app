@@ -6,7 +6,7 @@ describe('ViewTransactionComponent', () => {
   let component: ViewTransactionComponent;
   let fixture: ComponentFixture<ViewTransactionComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewTransactionComponent]
     }).compileComponents();

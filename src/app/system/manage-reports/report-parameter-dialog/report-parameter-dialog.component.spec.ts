@@ -6,7 +6,7 @@ describe('AddReportParameterDialogComponent', () => {
   let component: ReportParameterDialogComponent;
   let fixture: ComponentFixture<ReportParameterDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ReportParameterDialogComponent]
     }).compileComponents();

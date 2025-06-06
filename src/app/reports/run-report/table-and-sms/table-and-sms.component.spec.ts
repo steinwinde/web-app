@@ -6,7 +6,7 @@ describe('TableAndSmsComponent', () => {
   let component: TableAndSmsComponent;
   let fixture: ComponentFixture<TableAndSmsComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [TableAndSmsComponent]
     }).compileComponents();

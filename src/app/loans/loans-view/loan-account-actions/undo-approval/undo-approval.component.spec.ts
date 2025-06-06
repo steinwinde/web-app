@@ -6,7 +6,7 @@ describe('UndoApprovalComponent', () => {
   let component: UndoApprovalComponent;
   let fixture: ComponentFixture<UndoApprovalComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [UndoApprovalComponent]
     }).compileComponents();

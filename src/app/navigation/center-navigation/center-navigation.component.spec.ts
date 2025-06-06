@@ -6,7 +6,7 @@ describe('CenterNavigationComponent', () => {
   let component: CenterNavigationComponent;
   let fixture: ComponentFixture<CenterNavigationComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [CenterNavigationComponent]
     }).compileComponents();

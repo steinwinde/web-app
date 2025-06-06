@@ -6,7 +6,7 @@ describe('EnableDialogComponent', () => {
   let component: EnableDialogComponent;
   let fixture: ComponentFixture<EnableDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [EnableDialogComponent]
     }).compileComponents();

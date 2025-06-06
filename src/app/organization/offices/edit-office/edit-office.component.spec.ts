@@ -6,7 +6,7 @@ describe('EditOfficeComponent', () => {
   let component: EditOfficeComponent;
   let fixture: ComponentFixture<EditOfficeComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [EditOfficeComponent]
     }).compileComponents();

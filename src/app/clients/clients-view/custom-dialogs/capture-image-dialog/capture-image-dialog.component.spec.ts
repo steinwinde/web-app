@@ -6,7 +6,7 @@ describe('CaptureImageDialogComponent', () => {
   let component: CaptureImageDialogComponent;
   let fixture: ComponentFixture<CaptureImageDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [CaptureImageDialogComponent]
     }).compileComponents();

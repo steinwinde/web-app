@@ -6,7 +6,7 @@ describe('MakeAccountTransfersComponent', () => {
   let component: MakeAccountTransfersComponent;
   let fixture: ComponentFixture<MakeAccountTransfersComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [MakeAccountTransfersComponent]
     }).compileComponents();

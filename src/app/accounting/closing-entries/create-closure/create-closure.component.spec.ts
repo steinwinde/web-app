@@ -6,7 +6,7 @@ describe('CreateClosureComponent', () => {
   let component: CreateClosureComponent;
   let fixture: ComponentFixture<CreateClosureComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [CreateClosureComponent]
     }).compileComponents();

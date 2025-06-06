@@ -6,7 +6,7 @@ describe('EditRuleComponent', () => {
   let component: EditRuleComponent;
   let fixture: ComponentFixture<EditRuleComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [EditRuleComponent]
     }).compileComponents();

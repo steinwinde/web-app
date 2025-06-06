@@ -6,7 +6,7 @@ describe('OverdueChargesTabComponent', () => {
   let component: OverdueChargesTabComponent;
   let fixture: ComponentFixture<OverdueChargesTabComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [OverdueChargesTabComponent]
     }).compileComponents();

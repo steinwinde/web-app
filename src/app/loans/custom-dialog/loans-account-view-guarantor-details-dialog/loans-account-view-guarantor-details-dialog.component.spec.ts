@@ -6,7 +6,7 @@ describe('LoansAccountViewGuarantorDetailsDialogComponent', () => {
   let component: LoansAccountViewGuarantorDetailsDialogComponent;
   let fixture: ComponentFixture<LoansAccountViewGuarantorDetailsDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [LoansAccountViewGuarantorDetailsDialogComponent]
     }).compileComponents();

@@ -6,7 +6,7 @@ describe('ViewHookComponent', () => {
   let component: ViewHookComponent;
   let fixture: ComponentFixture<ViewHookComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewHookComponent]
     }).compileComponents();

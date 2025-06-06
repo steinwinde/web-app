@@ -6,7 +6,7 @@ describe('CreateEnityDataTableChecksComponent', () => {
   let component: CreateEnityDataTableChecksComponent;
   let fixture: ComponentFixture<CreateEnityDataTableChecksComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [CreateEnityDataTableChecksComponent]
     }).compileComponents();

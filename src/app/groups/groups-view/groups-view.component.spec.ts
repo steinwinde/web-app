@@ -6,7 +6,7 @@ describe('GroupsViewComponent', () => {
   let component: GroupsViewComponent;
   let fixture: ComponentFixture<GroupsViewComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [GroupsViewComponent]
     }).compileComponents();

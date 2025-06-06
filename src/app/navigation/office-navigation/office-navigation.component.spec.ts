@@ -6,7 +6,7 @@ describe('OfficeNavigationComponent', () => {
   let component: OfficeNavigationComponent;
   let fixture: ComponentFixture<OfficeNavigationComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [OfficeNavigationComponent]
     }).compileComponents();

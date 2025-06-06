@@ -6,7 +6,7 @@ describe('IndividualCollectionSheetComponent', () => {
   let component: IndividualCollectionSheetComponent;
   let fixture: ComponentFixture<IndividualCollectionSheetComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [IndividualCollectionSheetComponent]
     }).compileComponents();

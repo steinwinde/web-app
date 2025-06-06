@@ -6,7 +6,7 @@ describe('LoanCollateralTabComponent', () => {
   let component: LoanCollateralTabComponent;
   let fixture: ComponentFixture<LoanCollateralTabComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [LoanCollateralTabComponent]
     }).compileComponents();

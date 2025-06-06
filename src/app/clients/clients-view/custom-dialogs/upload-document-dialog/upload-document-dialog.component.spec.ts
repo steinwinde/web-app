@@ -6,7 +6,7 @@ describe('UploadDocumentDialogComponent', () => {
   let component: UploadDocumentDialogComponent;
   let fixture: ComponentFixture<UploadDocumentDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [UploadDocumentDialogComponent]
     }).compileComponents();

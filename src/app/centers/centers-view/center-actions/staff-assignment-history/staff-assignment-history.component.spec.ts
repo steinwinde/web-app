@@ -6,7 +6,7 @@ describe('StaffAssignmentHistoryComponent', () => {
   let component: StaffAssignmentHistoryComponent;
   let fixture: ComponentFixture<StaffAssignmentHistoryComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [StaffAssignmentHistoryComponent]
     }).compileComponents();

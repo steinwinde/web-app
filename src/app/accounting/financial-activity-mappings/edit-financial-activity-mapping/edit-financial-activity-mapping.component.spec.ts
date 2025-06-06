@@ -6,7 +6,7 @@ describe('EditFinancialActivityMappingComponent', () => {
   let component: EditFinancialActivityMappingComponent;
   let fixture: ComponentFixture<EditFinancialActivityMappingComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [EditFinancialActivityMappingComponent]
     }).compileComponents();

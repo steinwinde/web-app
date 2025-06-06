@@ -6,7 +6,7 @@ describe('SavingsAccountAssignStaffComponent', () => {
   let component: SavingsAccountAssignStaffComponent;
   let fixture: ComponentFixture<SavingsAccountAssignStaffComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [SavingsAccountAssignStaffComponent]
     }).compileComponents();

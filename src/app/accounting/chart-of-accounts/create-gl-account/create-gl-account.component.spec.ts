@@ -6,7 +6,7 @@ describe('CreateGlAccountComponent', () => {
   let component: CreateGlAccountComponent;
   let fixture: ComponentFixture<CreateGlAccountComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [CreateGlAccountComponent]
     }).compileComponents();

@@ -6,7 +6,7 @@ describe('EditAmazonS3Component', () => {
   let component: EditAmazonS3Component;
   let fixture: ComponentFixture<EditAmazonS3Component>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [EditAmazonS3Component]
     }).compileComponents();

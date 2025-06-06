@@ -6,7 +6,7 @@ describe('FixedDepositProductsComponent', () => {
   let component: ManageTaxComponentsComponent;
   let fixture: ComponentFixture<ManageTaxComponentsComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ManageTaxComponentsComponent]
     }).compileComponents();

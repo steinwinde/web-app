@@ -6,7 +6,7 @@ describe('ClientTrendsBarComponent', () => {
   let component: ClientTrendsBarComponent;
   let fixture: ComponentFixture<ClientTrendsBarComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ClientTrendsBarComponent]
     }).compileComponents();

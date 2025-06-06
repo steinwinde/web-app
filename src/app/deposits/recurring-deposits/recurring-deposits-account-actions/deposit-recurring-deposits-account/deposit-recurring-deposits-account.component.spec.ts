@@ -6,7 +6,7 @@ describe('DepositRecurringDepositsAccountComponent', () => {
   let component: DepositRecurringDepositsAccountComponent;
   let fixture: ComponentFixture<DepositRecurringDepositsAccountComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [DepositRecurringDepositsAccountComponent]
     }).compileComponents();

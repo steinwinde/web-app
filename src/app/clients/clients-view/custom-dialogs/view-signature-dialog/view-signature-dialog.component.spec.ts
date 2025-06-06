@@ -6,7 +6,7 @@ describe('ViewSignatureDialogComponent', () => {
   let component: ViewSignatureDialogComponent;
   let fixture: ComponentFixture<ViewSignatureDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewSignatureDialogComponent]
     }).compileComponents();

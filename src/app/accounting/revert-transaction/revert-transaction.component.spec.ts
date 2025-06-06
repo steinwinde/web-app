@@ -6,7 +6,7 @@ describe('RevertTransactionComponent', () => {
   let component: RevertTransactionComponent;
   let fixture: ComponentFixture<RevertTransactionComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [RevertTransactionComponent]
     }).compileComponents();

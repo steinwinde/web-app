@@ -6,7 +6,7 @@ describe('EditGlAccountComponent', () => {
   let component: EditGlAccountComponent;
   let fixture: ComponentFixture<EditGlAccountComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [EditGlAccountComponent]
     }).compileComponents();

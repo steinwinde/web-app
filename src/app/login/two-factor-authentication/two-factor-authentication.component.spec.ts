@@ -6,7 +6,7 @@ describe('TwoFactorAuthenticationComponent', () => {
   let component: TwoFactorAuthenticationComponent;
   let fixture: ComponentFixture<TwoFactorAuthenticationComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [TwoFactorAuthenticationComponent]
     }).compileComponents();

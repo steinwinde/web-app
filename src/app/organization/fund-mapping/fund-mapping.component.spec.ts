@@ -6,7 +6,7 @@ describe('FundMappingComponent', () => {
   let component: FundMappingComponent;
   let fixture: ComponentFixture<FundMappingComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [FundMappingComponent]
     }).compileComponents();

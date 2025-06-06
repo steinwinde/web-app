@@ -6,7 +6,7 @@ describe('ToggleWithholdTaxDialogComponent', () => {
   let component: ToggleWithholdTaxDialogComponent;
   let fixture: ComponentFixture<ToggleWithholdTaxDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ToggleWithholdTaxDialogComponent]
     }).compileComponents();

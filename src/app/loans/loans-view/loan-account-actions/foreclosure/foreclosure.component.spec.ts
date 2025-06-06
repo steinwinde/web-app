@@ -6,7 +6,7 @@ describe('ForeclosureComponent', () => {
   let component: ForeclosureComponent;
   let fixture: ComponentFixture<ForeclosureComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ForeclosureComponent]
     }).compileComponents();

@@ -6,7 +6,7 @@ describe('SavingProductTermsStepComponent', () => {
   let component: SavingProductTermsStepComponent;
   let fixture: ComponentFixture<SavingProductTermsStepComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [SavingProductTermsStepComponent]
     }).compileComponents();

@@ -6,7 +6,7 @@ describe('EditGroupComponent', () => {
   let component: EditGroupComponent;
   let fixture: ComponentFixture<EditGroupComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [EditGroupComponent]
     }).compileComponents();

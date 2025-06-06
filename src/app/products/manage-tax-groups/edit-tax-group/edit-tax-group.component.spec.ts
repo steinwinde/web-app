@@ -6,7 +6,7 @@ describe('EditTaxGroupComponent', () => {
   let component: EditTaxGroupComponent;
   let fixture: ComponentFixture<EditTaxGroupComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [EditTaxGroupComponent]
     }).compileComponents();

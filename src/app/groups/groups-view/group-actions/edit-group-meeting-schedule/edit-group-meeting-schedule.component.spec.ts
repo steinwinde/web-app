@@ -6,7 +6,7 @@ describe('EditGroupMeetingScheduleComponent', () => {
   let component: EditGroupMeetingScheduleComponent;
   let fixture: ComponentFixture<EditGroupMeetingScheduleComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [EditGroupMeetingScheduleComponent]
     }).compileComponents();

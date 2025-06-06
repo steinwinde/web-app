@@ -6,7 +6,7 @@ describe('ViewDataTableComponent', () => {
   let component: ViewDataTableComponent;
   let fixture: ComponentFixture<ViewDataTableComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewDataTableComponent]
     }).compileComponents();

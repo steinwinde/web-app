@@ -6,7 +6,7 @@ describe('ConfigurationWizardComponent', () => {
   let component: ConfigurationWizardComponent;
   let fixture: ComponentFixture<ConfigurationWizardComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ConfigurationWizardComponent]
     }).compileComponents();

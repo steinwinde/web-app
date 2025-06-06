@@ -6,7 +6,7 @@ describe('CreateDataTableComponent', () => {
   let component: CreateDataTableComponent;
   let fixture: ComponentFixture<CreateDataTableComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [CreateDataTableComponent]
     }).compileComponents();

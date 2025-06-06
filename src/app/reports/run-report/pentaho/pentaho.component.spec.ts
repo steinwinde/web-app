@@ -6,7 +6,7 @@ describe('PentahoComponent', () => {
   let component: PentahoComponent;
   let fixture: ComponentFixture<PentahoComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [PentahoComponent]
     }).compileComponents();

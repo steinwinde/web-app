@@ -6,7 +6,7 @@ describe('LoanProvisioningCriteriaComponent', () => {
   let component: LoanProvisioningCriteriaComponent;
   let fixture: ComponentFixture<LoanProvisioningCriteriaComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [LoanProvisioningCriteriaComponent]
     }).compileComponents();

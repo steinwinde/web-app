@@ -6,7 +6,7 @@ describe('ManageGroupMembersComponent', () => {
   let component: ManageGroupMembersComponent;
   let fixture: ComponentFixture<ManageGroupMembersComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ManageGroupMembersComponent]
     }).compileComponents();

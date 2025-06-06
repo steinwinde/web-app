@@ -6,7 +6,7 @@ describe('ViewShareProductComponent', () => {
   let component: ViewShareProductComponent;
   let fixture: ComponentFixture<ViewShareProductComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewShareProductComponent]
     }).compileComponents();

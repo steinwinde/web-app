@@ -6,7 +6,7 @@ describe('EditEmailComponent', () => {
   let component: EditEmailComponent;
   let fixture: ComponentFixture<EditEmailComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [EditEmailComponent]
     }).compileComponents();

@@ -6,7 +6,7 @@ describe('AddCollateralComponent', () => {
   let component: AddCollateralComponent;
   let fixture: ComponentFixture<AddCollateralComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [AddCollateralComponent]
     }).compileComponents();

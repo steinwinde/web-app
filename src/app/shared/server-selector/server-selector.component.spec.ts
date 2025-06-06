@@ -6,7 +6,7 @@ describe('ServerSelectorComponent', () => {
   let component: ServerSelectorComponent;
   let fixture: ComponentFixture<ServerSelectorComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ServerSelectorComponent]
     }).compileComponents();

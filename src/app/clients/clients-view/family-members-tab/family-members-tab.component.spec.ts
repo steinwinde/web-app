@@ -6,7 +6,7 @@ describe('FamilyMembersTabComponent', () => {
   let component: FamilyMembersTabComponent;
   let fixture: ComponentFixture<FamilyMembersTabComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [FamilyMembersTabComponent]
     }).compileComponents();

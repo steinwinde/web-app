@@ -6,7 +6,7 @@ describe('PeriodicAccrualsComponent', () => {
   let component: PeriodicAccrualsComponent;
   let fixture: ComponentFixture<PeriodicAccrualsComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [PeriodicAccrualsComponent]
     }).compileComponents();

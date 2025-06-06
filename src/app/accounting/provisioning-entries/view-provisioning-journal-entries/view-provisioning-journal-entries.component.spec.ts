@@ -6,7 +6,7 @@ describe('ViewProvisioningJournalEntriesComponent', () => {
   let component: ViewProvisioningJournalEntriesComponent;
   let fixture: ComponentFixture<ViewProvisioningJournalEntriesComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewProvisioningJournalEntriesComponent]
     }).compileComponents();

@@ -6,7 +6,7 @@ describe('EditSmsCampaignStepComponent', () => {
   let component: EditSmsCampaignStepComponent;
   let fixture: ComponentFixture<EditSmsCampaignStepComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [EditSmsCampaignStepComponent]
     }).compileComponents();

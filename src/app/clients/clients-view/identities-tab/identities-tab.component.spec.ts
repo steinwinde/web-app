@@ -6,7 +6,7 @@ describe('IdentitiesTabComponent', () => {
   let component: IdentitiesTabComponent;
   let fixture: ComponentFixture<IdentitiesTabComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [IdentitiesTabComponent]
     }).compileComponents();

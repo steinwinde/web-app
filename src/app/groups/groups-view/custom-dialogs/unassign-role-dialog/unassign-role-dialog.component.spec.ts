@@ -6,7 +6,7 @@ describe('UnassignRoleDialogComponent', () => {
   let component: UnassignRoleDialogComponent;
   let fixture: ComponentFixture<UnassignRoleDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [UnassignRoleDialogComponent]
     }).compileComponents();

@@ -6,7 +6,7 @@ describe('ShareAccountTableComponent', () => {
   let component: ShareAccountTableComponent;
   let fixture: ComponentFixture<ShareAccountTableComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ShareAccountTableComponent]
     }).compileComponents();

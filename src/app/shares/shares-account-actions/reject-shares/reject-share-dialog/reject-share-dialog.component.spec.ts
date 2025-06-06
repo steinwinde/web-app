@@ -6,7 +6,7 @@ describe('RejectSharesDialogComponent', () => {
   let component: RejectShareDialogComponent;
   let fixture: ComponentFixture<RejectShareDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [RejectShareDialogComponent]
     }).compileComponents();

@@ -6,7 +6,7 @@ describe('KeyboardShortcutsDialogComponent', () => {
   let component: KeyboardShortcutsDialogComponent;
   let fixture: ComponentFixture<KeyboardShortcutsDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [KeyboardShortcutsDialogComponent]
     }).compileComponents();

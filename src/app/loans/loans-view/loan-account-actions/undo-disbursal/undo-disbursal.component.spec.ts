@@ -6,7 +6,7 @@ describe('UndoDisbursalComponent', () => {
   let component: UndoDisbursalComponent;
   let fixture: ComponentFixture<UndoDisbursalComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [UndoDisbursalComponent]
     }).compileComponents();

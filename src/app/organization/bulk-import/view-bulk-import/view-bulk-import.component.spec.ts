@@ -6,7 +6,7 @@ describe('ViewBulkImportComponent', () => {
   let component: ViewBulkImportComponent;
   let fixture: ComponentFixture<ViewBulkImportComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewBulkImportComponent]
     }).compileComponents();

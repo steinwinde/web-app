@@ -6,7 +6,7 @@ describe('PasswordPreferencesComponent', () => {
   let component: PasswordPreferencesComponent;
   let fixture: ComponentFixture<PasswordPreferencesComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [PasswordPreferencesComponent]
     }).compileComponents();

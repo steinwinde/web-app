@@ -6,7 +6,7 @@ describe('AccountingRulesComponent', () => {
   let component: AccountingRulesComponent;
   let fixture: ComponentFixture<AccountingRulesComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [AccountingRulesComponent]
     }).compileComponents();

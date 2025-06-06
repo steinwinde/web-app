@@ -6,7 +6,7 @@ describe('DatatableTabComponent', () => {
   let component: DatatableTabComponent;
   let fixture: ComponentFixture<DatatableTabComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [DatatableTabComponent]
     }).compileComponents();

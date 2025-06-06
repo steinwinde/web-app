@@ -6,7 +6,7 @@ describe('EditDataTableComponent', () => {
   let component: EditDataTableComponent;
   let fixture: ComponentFixture<EditDataTableComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [EditDataTableComponent]
     }).compileComponents();

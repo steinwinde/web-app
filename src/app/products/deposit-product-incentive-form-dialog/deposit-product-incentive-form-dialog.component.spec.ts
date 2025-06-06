@@ -6,7 +6,7 @@ describe('DepositProductIncentiveFormDialogComponent', () => {
   let component: DepositProductIncentiveFormDialogComponent;
   let fixture: ComponentFixture<DepositProductIncentiveFormDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [DepositProductIncentiveFormDialogComponent]
     }).compileComponents();

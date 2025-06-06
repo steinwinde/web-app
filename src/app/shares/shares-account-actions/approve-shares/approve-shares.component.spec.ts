@@ -6,7 +6,7 @@ describe('ApproveSharesComponent', () => {
   let component: ApproveSharesComponent;
   let fixture: ComponentFixture<ApproveSharesComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ApproveSharesComponent]
     }).compileComponents();

@@ -6,7 +6,7 @@ describe('InactivateChargeDialogComponent', () => {
   let component: InactivateChargeDialogComponent;
   let fixture: ComponentFixture<InactivateChargeDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [InactivateChargeDialogComponent]
     }).compileComponents();

@@ -6,7 +6,7 @@ describe('DividendsTabComponent', () => {
   let component: DividendsTabComponent;
   let fixture: ComponentFixture<DividendsTabComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [DividendsTabComponent]
     }).compileComponents();

@@ -6,7 +6,7 @@ describe('AdhocQueryComponent', () => {
   let component: AdhocQueryComponent;
   let fixture: ComponentFixture<AdhocQueryComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [AdhocQueryComponent]
     }).compileComponents();

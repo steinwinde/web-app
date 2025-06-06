@@ -6,7 +6,7 @@ describe('ViewCodeComponent', () => {
   let component: ViewCodeComponent;
   let fixture: ComponentFixture<ViewCodeComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ViewCodeComponent]
     }).compileComponents();

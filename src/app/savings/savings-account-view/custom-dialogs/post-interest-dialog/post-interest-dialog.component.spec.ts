@@ -6,7 +6,7 @@ describe('PostInterestDialogComponent', () => {
   let component: PostInterestDialogComponent;
   let fixture: ComponentFixture<PostInterestDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [PostInterestDialogComponent]
     }).compileComponents();

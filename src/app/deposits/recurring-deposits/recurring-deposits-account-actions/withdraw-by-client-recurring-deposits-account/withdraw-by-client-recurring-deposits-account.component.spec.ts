@@ -6,7 +6,7 @@ describe('WithdrawByClientRecurringDepositsAccountComponent', () => {
   let component: WithdrawByClientRecurringDepositsAccountComponent;
   let fixture: ComponentFixture<WithdrawByClientRecurringDepositsAccountComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [WithdrawByClientRecurringDepositsAccountComponent]
     }).compileComponents();

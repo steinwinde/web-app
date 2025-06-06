@@ -6,7 +6,7 @@ describe('AllocateCashComponent', () => {
   let component: AllocateCashComponent;
   let fixture: ComponentFixture<AllocateCashComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [AllocateCashComponent]
     }).compileComponents();

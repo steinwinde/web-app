@@ -6,7 +6,7 @@ describe('AccountNumberPreferencesComponent', () => {
   let component: AccountNumberPreferencesComponent;
   let fixture: ComponentFixture<AccountNumberPreferencesComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [AccountNumberPreferencesComponent]
     }).compileComponents();

@@ -6,7 +6,7 @@ describe('NotificationsTrayComponent', () => {
   let component: NotificationsTrayComponent;
   let fixture: ComponentFixture<NotificationsTrayComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [NotificationsTrayComponent]
     }).compileComponents();

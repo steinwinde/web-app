@@ -6,7 +6,7 @@ describe('CheckerInboxAndTasksComponent', () => {
   let component: CheckerInboxAndTasksComponent;
   let fixture: ComponentFixture<CheckerInboxAndTasksComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [CheckerInboxAndTasksComponent]
     }).compileComponents();

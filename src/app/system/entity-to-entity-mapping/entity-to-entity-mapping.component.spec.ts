@@ -6,7 +6,7 @@ describe('EntityToEntityMappingComponent', () => {
   let component: EntityToEntityMappingComponent;
   let fixture: ComponentFixture<EntityToEntityMappingComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [EntityToEntityMappingComponent]
     }).compileComponents();

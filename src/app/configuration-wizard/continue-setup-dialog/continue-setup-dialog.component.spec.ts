@@ -6,7 +6,7 @@ describe('ContinueSetupDialogComponent', () => {
   let component: ContinueSetupDialogComponent;
   let fixture: ComponentFixture<ContinueSetupDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ContinueSetupDialogComponent]
     }).compileComponents();

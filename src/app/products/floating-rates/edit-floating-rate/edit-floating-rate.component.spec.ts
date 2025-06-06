@@ -6,7 +6,7 @@ describe('EditFloatingRateComponent', () => {
   let component: EditFloatingRateComponent;
   let fixture: ComponentFixture<EditFloatingRateComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [EditFloatingRateComponent]
     }).compileComponents();

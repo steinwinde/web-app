@@ -6,7 +6,7 @@ describe('ClientScreenReportsComponent', () => {
   let component: ClientScreenReportsComponent;
   let fixture: ComponentFixture<ClientScreenReportsComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ClientScreenReportsComponent]
     }).compileComponents();

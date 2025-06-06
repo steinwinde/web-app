@@ -6,7 +6,7 @@ describe('RecurringDepositProductInterestRateChartStepComponent', () => {
   let component: RecurringDepositProductInterestRateChartStepComponent;
   let fixture: ComponentFixture<RecurringDepositProductInterestRateChartStepComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [RecurringDepositProductInterestRateChartStepComponent]
     }).compileComponents();

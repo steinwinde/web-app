@@ -6,7 +6,7 @@ describe('ThemePickerComponent', () => {
   let component: ThemePickerComponent;
   let fixture: ComponentFixture<ThemePickerComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ThemePickerComponent]
     }).compileComponents();

@@ -6,7 +6,7 @@ describe('CenterAssignStaffComponent', () => {
   let component: CenterAssignStaffComponent;
   let fixture: ComponentFixture<CenterAssignStaffComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [CenterAssignStaffComponent]
     }).compileComponents();

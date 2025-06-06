@@ -6,7 +6,7 @@ describe('CreateProvisioningEntryComponent', () => {
   let component: CreateProvisioningEntryComponent;
   let fixture: ComponentFixture<CreateProvisioningEntryComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [CreateProvisioningEntryComponent]
     }).compileComponents();

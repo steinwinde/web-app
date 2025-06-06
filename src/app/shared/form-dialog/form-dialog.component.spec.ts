@@ -6,7 +6,7 @@ describe('FormDialogComponent', () => {
   let component: FormDialogComponent;
   let fixture: ComponentFixture<FormDialogComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [FormDialogComponent]
     }).compileComponents();

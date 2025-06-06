@@ -6,7 +6,7 @@ describe('EditProductMixComponent', () => {
   let component: EditProductMixComponent;
   let fixture: ComponentFixture<EditProductMixComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [EditProductMixComponent]
     }).compileComponents();

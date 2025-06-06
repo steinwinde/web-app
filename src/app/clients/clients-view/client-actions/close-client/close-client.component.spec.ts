@@ -6,7 +6,7 @@ describe('CloseClientComponent', () => {
   let component: CloseClientComponent;
   let fixture: ComponentFixture<CloseClientComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [CloseClientComponent]
     }).compileComponents();

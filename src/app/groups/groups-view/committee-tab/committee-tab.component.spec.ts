@@ -6,7 +6,7 @@ describe('CommitteeTabComponent', () => {
   let component: CommitteeTabComponent;
   let fixture: ComponentFixture<CommitteeTabComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [CommitteeTabComponent]
     }).compileComponents();
