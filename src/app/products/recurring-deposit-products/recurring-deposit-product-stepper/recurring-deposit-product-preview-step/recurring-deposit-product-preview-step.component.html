@@ -1,4 +1,4 @@
-<div class="layout-row-wrap responsive-column">
+<div class="responsive-column">
   <h2 class="mat-h2 flex-fill">{{ recurringDepositProduct.name }}</h2>
 
   <mat-divider class="flex-fill"></mat-divider>
@@ -171,10 +171,7 @@
     <h3 class="mat-h3 flex-fill">{{ 'labels.heading.Interest Rate Charts' | translate }}</h3>
 
     <mat-divider class="flex-fill"></mat-divider>
-    <div
-      *ngFor="let chart of recurringDepositProduct.charts; let chartIndex = index"
-      class="flex-fill layout-row-wrap layout-xs-column"
-    >
+    <div *ngFor="let chart of recurringDepositProduct.charts; let chartIndex = index" class="layout-xs-column">
       <div class="flex-fill" *ngIf="chart.name">
         <span class="flex-40">{{ 'labels.inputs.Name' | translate }}:</span>
         <span class="flex-60">{{ chart.name }}</span>
