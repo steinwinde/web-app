@@ -45,6 +45,7 @@ interface JobDataType {
   selector: 'mifosx-custom-parameters-popover',
   templateUrl: './custom-parameters-popover.component.html',
   styleUrls: ['./custom-parameters-popover.component.scss'],
+  // eslint-disable-next-line @angular-eslint/prefer-standalone
   standalone: false
 })
 export class CustomParametersPopoverComponent implements OnInit {
@@ -66,7 +67,7 @@ export class CustomParametersPopoverComponent implements OnInit {
   ngOnInit(): void {
     this.selectedJobs = this.data.selectedJobs.selected.map((jobJSON) => ({
       ...jobJSON,
-      jobParameters: []
+      jobParameters: [] as JobParameterType[]
     }));
   }
 

@@ -27,7 +27,7 @@ export class IdleTimeoutService {
     const $signal = merge(...events.map((eventName) => fromEvent(document, eventName)));
     this.$onSessionTimeout = interval(this.timeoutDelay).pipe(
       takeUntil($signal),
-      map(() => undefined),
+      map((): void => undefined),
       repeat()
     );
   }
