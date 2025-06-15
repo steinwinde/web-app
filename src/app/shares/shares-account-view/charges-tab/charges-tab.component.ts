@@ -9,7 +9,9 @@ import { ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'mifosx-charges-tab',
   templateUrl: './charges-tab.component.html',
-  styleUrls: ['./charges-tab.component.scss']
+  styleUrls: ['./charges-tab.component.scss'],
+  // eslint-disable-next-line @angular-eslint/prefer-standalone
+  standalone: false
 })
 export class ChargesTabComponent implements OnInit {
   /** Shares Account Data */
