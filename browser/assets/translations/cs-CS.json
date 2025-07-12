@@ -1884,6 +1884,7 @@
       "Mandatory": "Povinné",
       "Mandatory Guarantee(%)": "Povinná záruka (%)",
       "Manual Entries Allowed": "Ruční vkládání povoleno",
+      "Manual Journal Entry": "Ruční zápis do deníku",
       "Mapper Key": "Mapper Key",
       "Mapper Value": "Hodnota mapovače",
       "Mapping id": "ID mapování",
@@ -2486,7 +2487,8 @@
       "Buy down fee income type": "Typ příjmu z poplatku za odkup",
       "Buy down fees": "Poplatky za odkup",
       "Income from Buy down fees": "Příjmy z poplatků za odkup",
-      "Buy down fee Expense": "Náklady na poplatek za odkup"
+      "Buy down fee Expense": "Náklady na poplatek za odkup",
+      "Skip Interest Refund Transaction Posting": "Přeskočit zaúčtování vrácení úroků"
     },
     "links": {
       "Community": "Společenství",
